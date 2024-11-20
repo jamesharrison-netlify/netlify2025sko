@@ -14,9 +14,9 @@ const Home = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/40" />
         <div className="relative max-w-7xl mx-auto px-4 h-full flex items-center">
           <div className="text-white">
-            <h1 className="text-6xl font-bold mb-4">Netlify SKO 2025</h1>
+           
             <p className="text-2xl mb-8">
-              Join us in the heart of the Rockies for an extraordinary week of innovation
+              We welcome you to Netlify's 2025 SKO in Denver, CO. 
             </p>
             <div className="flex flex-col sm:flex-row gap-6 text-lg mb-8">
               <div className="flex items-center bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">

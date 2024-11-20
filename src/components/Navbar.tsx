@@ -12,8 +12,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <img
-                src="/sko-2025-logo.jpg"
-                alt="Netlify SKO 2025"
+                src="/NetlifySKO2025.jpg"
                 className="h-20 w-auto"
                 style={{ maxWidth: 'none' }}
               />

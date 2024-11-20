@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Netlify SKO 2025</title>
     <style>
       header {
         display: flex;
@@ -13,17 +12,14 @@
         background-color: #f5f5f5; /* Optional background for better visibility */
       }
       header img {
-        height: 50px;
-      }
-      header h1 {
-        font-size: 1.5rem;
-        font-weight: bold;
+        width: 100px; /* Set width */
+        height: 100px; /* Set height */
+        object-fit: cover; /* Ensure proportions are maintained and fills the size */
       }
     </style>
   </head>
   <body>
     <header>
-      <img src="/NetlifySKO2025.jpg" />
     </header>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>

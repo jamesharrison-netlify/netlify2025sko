@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>© {new Date().getFullYear()} Netlify. All rights reserved.</p>
+          <p>Built by Netlify, on Netlify</p>
         </div>
       </div>
     </footer>
