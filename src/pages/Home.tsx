@@ -1,3 +1,4 @@
+@@ -0,0 +1,44 @@
 import { Link } from 'react-router-dom';
 import { Calendar, MapPin } from 'lucide-react';
 
@@ -7,7 +8,8 @@ const Home = () => {
       <div
         className="relative h-[70vh] bg-cover bg-center"
         style={{
-          backgroundImage: `url("/Netlify-SKO-2025.jpg")`,
+          backgroundImage:
+            'url("https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?auto=format&fit=crop&q=80")',
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/40" />
