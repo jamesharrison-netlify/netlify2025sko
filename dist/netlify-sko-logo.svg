@@ -1,0 +1,6 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="250" cy="200" r="200" fill="#00C7B7"/>
+  <path d="M250 50 L100 350 L400 350 Z" fill="#005C5C"/>
+  <text x="250" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#005C5C">netlify</text>
+  <text x="250" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#005C5C">SKO 2025</text>
+</svg>

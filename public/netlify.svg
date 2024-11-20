@@ -1,0 +1,5 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="256" cy="256" r="256" fill="#00AD9F"/>
+  <path d="M256 120 L120 360 H392 L256 120Z" fill="#ffffff"/>
+  <text x="256" y="420" text-anchor="middle" font-family="Arial Black" font-size="48" fill="#ffffff">SKO 2025</text>
+</svg>
