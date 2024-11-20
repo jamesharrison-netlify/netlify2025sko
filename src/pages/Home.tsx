@@ -1,4 +1,3 @@
-@@ -0,0 +1,44 @@
 import { Link } from 'react-router-dom';
 import { Calendar, MapPin } from 'lucide-react';
 
