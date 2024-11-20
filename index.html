@@ -1,20 +1,32 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-
-// Import the logo
-import logo from '/Netlify-SKO-2025.jpg'; // Adjust the path as needed
-
-const App = () => {
-  return (
-    <header style={{ display: 'flex', alignItems: 'center', gap: '10px', padding: '10px' }}>
-      {/* Logo */}
-      <img src={logo} alt="Netlify SKO 2025 Logo" style={{ height: '50px' }} />
-      {/* Title */}
-      <h1 style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>Netlify SKO 2025</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netlify SKO 2025</title>
+    <style>
+      header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        background-color: #f5f5f5; /* Optional background for better visibility */
+      }
+      header img {
+        height: 50px;
+      }
+      header h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="/Netlify-SKO-2025.jpg" alt="Netlify SKO 2025 Logo" />
+      <h1>Netlify SKO 2025</h1>
     </header>
-  );
-};
-
-// Render the app
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
